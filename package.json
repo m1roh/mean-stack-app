@@ -1,0 +1,29 @@
+{
+  "name": "mean-stack-app",
+  "version": "1.0.0",
+  "description": "Mean stack application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m1roh/mean-stack-app.git"
+  },
+  "keywords": [
+    "mean"
+  ],
+  "author": "m1roh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/m1roh/mean-stack-app/issues"
+  },
+  "homepage": "https://github.com/m1roh/mean-stack-app#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.0"
+  }
+}
