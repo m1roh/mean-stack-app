@@ -1,3 +1,6 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+
 html {
     position: relative;
     min-height: 100%;
@@ -6,6 +9,14 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 90px;
+}
+
+h1, p, h3 {
+    padding-left: 15px;
+}
+
+p {
+    padding-right: 15px;
 }
 
 .padded {
