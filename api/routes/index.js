@@ -30,7 +30,7 @@ router
     .put(ctrlReviews.reviewsUpdateOne)
     .delete(ctrlReviews.reviewsDeleteOne);
 
-//Autentication
+//Authentication
 router
     .route('/users/register')
     .post(ctrlUsers.register);
